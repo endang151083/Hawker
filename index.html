@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawker Validator — Independent Multi-Network Validator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-text {
+      font-weight: 800;
+      font-size: 1.4rem;
+      letter-spacing: -0.5px;
+    }
+    .logo-text span { color: #c9a227; }
+    nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: #1a1a1a;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: #c9a227; }
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    .hero img {
+      width: 180px;
+      height: auto;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: 16px;
+      line-height: 1.1;
+    }
+    h1 span { color: #c9a227; }
+    .tagline {
+      font-size: 1.25rem;
+      color: #555;
+      max-width: 680px;
+      margin: 0 auto 32px;
+    }
+    .cta {
+      display: inline-block;
+      background: #1a1a1a;
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0 8px;
+    }
+    .cta.gold {
+      background: #c9a227;
+      color: #1a1a1a;
+    }
+    .cta:hover { opacity: 0.9; }
+    section { padding: 80px 0; }
+    section.alt { background: #fafafa; }
+    h2 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #666;
+      max-width: 700px;
+      margin: 0 auto 48px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #eee;
+      padding: 32px;
+      border-radius: 12px;
+    }
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+    .card p { color: #444; }
+    .icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 48px 0 32px;
+      text-align: center;
+    }
+    footer .logo-text { color: #fff; margin-bottom: 16px; }
+    footer p { color: #aaa; font-size: 0.9rem; }
+    @media (max-width: 768px) {
+      h1 { font-size: 2.4rem; }
+      .nav { flex-direction: column; gap: 16px; }
+      nav a { margin: 0 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo-text">HAWKER <span>VALIDATOR</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#networks">Networks</a>
+        <a href="#why">Why Delegate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <img src="hawker-validator-logo.jpg" alt="Hawker Validator Logo">
+      <h1>HAWKER<br><span>VALIDATOR</span></h1>
+      <p class="tagline">Independent validator operator running nodes across multiple networks. Built by a traditional trader from Singapore. Reliable infrastructure. Direct accountability.</p>
+      <a href="#contact" class="cta gold">Delegate with Us</a>
+      <a href="#about" class="cta">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about" class="alt">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p class="subtitle">Hawker Validator is an independent validator. We operate validators on several networks. We come from a traditional trader background in Singapore — focused on reliability, long-term thinking, and doing the work ourselves.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">✓</div>
+          <h3>Independent</h3>
+          <p>Not part of large institutional pools or venture-backed operators. We run our own infrastructure and answer directly for performance.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌐</div>
+          <h3>Multi-Network</h3>
+          <p>We run validators across multiple chains. Same operational standards applied consistently wherever we participate.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛡️</div>
+          <h3>Operator First</h3>
+          <p>Infrastructure, monitoring, and uptime are managed in-house. No outsourcing of core validation responsibilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="networks">
+    <div class="container">
+      <h2>Networks We Validate</h2>
+      <p class="subtitle">We operate validators on selected networks where we can maintain high standards of reliability and contribution.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Active Networks</h3>
+          <p>We currently run validators on multiple proof-of-stake networks. Details of specific chains and performance are available upon request or via our public endpoints.</p>
+        </div>
+        <div class="card">
+          <h3>Consistent Standards</h3>
+          <p>Every network is operated with the same approach: proper hardware, monitoring, timely upgrades, and transparent communication.</p>
+        </div>
+        <div class="card">
+          <h3>Expansion</h3>
+          <p>We add networks selectively. Priority is given to chains where independent operators can still contribute meaningfully.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="alt">
+    <div class="container">
+      <h2>Why Delegate to Hawker</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Reliability</h3>
+          <p>Uptime and performance are treated as non-negotiable. Built from a trader’s discipline of showing up every day.</p>
+        </div>
+        <div class="card">
+          <h3>Independence</h3>
+          <p>Delegation supports an independent operator rather than concentrating stake in a few large entities.</p>
+        </div>
+        <div class="card">
+          <h3>Direct Contact</h3>
+          <p>Questions and issues are handled directly. No layers of support tickets or account managers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container" style="text-align: center;">
+      <h2>Delegate or Get in Touch</h2>
+      <p class="subtitle">Interested in delegating, checking our current networks, or discussing infrastructure? Reach out directly.</p>
+      <a href="mailto:hello@hawkervalidator.sg" class="cta gold">Contact Us</a>
+      <p style="margin-top: 24px; color: #666;">Email: hello@hawkervalidator.sg</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="logo-text">HAWKER <span style="color:#c9a227;">VALIDATOR</span></div>
+      <p>Independent multi-network validator. Traditional trader roots. Singapore.</p>
+      <p style="margin-top: 12px;">© 2026 Hawker Validator. Run by operators, for the networks.</p>
+    </div>
+  </footer>
+</body>
+</html>
